@@ -1,0 +1,27 @@
+:root {
+    --accent-color: #102f44;
+    --base-color: #fbf9ec;
+    --text-color: #d8d3c2;
+    --input-color: #f3f0ff;
+}
+
+body {
+    background-color: #d8d3c2;
+
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* Ajuste o espaço entre os cards */
+}
+.nav-img {
+ width:60px;
+ border-radius: 40%;
+ margin-right: 10px;
+
+}
+.container-fluid{
+    background-color: #102f446b;
+}
