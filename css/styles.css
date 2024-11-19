@@ -1,27 +1,24 @@
 :root {
-    --accent-color: #102f44;
-    --base-color: #fbf9ec;
-    --text-color: #d8d3c2;
+    --accent-color: #5ea559;
+    --base-color: #5ea559;
+    --text-color: #5ea559;
     --input-color: #f3f0ff;
 }
 
 body {
-    background-color: #d8d3c2;
-
+    background-color: #4c674b;
 }
-
-.cards-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    /* Ajuste o espaço entre os cards */
-}
-.nav-img {
- width:60px;
- border-radius: 40%;
- margin-right: 10px;
-
-}
-.container-fluid{
-    background-color: #102f446b;
-}
+img {
+    width: auto; /* Preserva a largura original */
+    height: 200px; /* Define a altura desejada */
+    object-fit: contain; /* Ajusta como a imagem é redimensionada */
+  }
+  button, a.btn {
+    font-size: 2000px; /* Ajuste para o tamanho desejado */
+    font-weight: bold; /* Para destacar ainda mais */
+    letter-spacing: 2px; /* Espaçamento opcional entre letras */
+  }
+  h1{
+    color: #c0e6c0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
